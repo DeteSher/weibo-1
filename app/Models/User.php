@@ -6,6 +6,8 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+use Illuminate\Support\Str;
+
 class User extends Authenticatable
 {
     use Notifiable;
@@ -34,8 +36,8 @@ class User extends Authenticatable
     {
         parent::boot();
 
-        static::creating(function ($user){
-            $user->activation_token = str_random(30);
+        static::creating(function ($user) {
+            $user->activation_token = Str::random(10);
         });
     }
 
