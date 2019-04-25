@@ -1,0 +1,39 @@
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.qq.com
+MAIL_PORT=25
+MAIL_USERNAME=1051471266@qq.com
+MAIL_PASSWORD=plcduuyejotdbfdj
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=1051471266@qq.com
+MAIL_FROM_NAME=WeiboApp
+
+heroku config:set APP_URL=
+
+
+
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+
+
+http://gm.west.zgirls.net:8081/gameservice/tutorial.php?server=1&gameUid=16995975000001&appVersion=1.300.228&country=CN_INNER&tutorial=20002110&regTime=1555481455&auth=027ac5f707e04d2d7e5d2aafda7fb120
+
+
+plcduuyejotdbfdj
+
+http://gentle-forest-73428.herokuapp.com/
+
+heroku config:set MAIL_DRIVER=smtp
+heroku config:set MAIL_HOST=smtp.qq.com
+heroku config:set MAIL_PORT=25
+heroku config:set MAIL_USERNAME=1051471266@qq.com
+heroku config:set MAIL_PASSWORD=plcduuyejotdbfdj
+heroku config:set MAIL_ENCRYPTION=tls
+heroku config:set MAIL_FROM_ADDRESS=1051471266@qq.com
+heroku config:set MAIL_FROM_NAME=WeiboApp
+heroku config:set APP_URL=http://gentle-forest-73428.herokuapp.com/
+
+http://gentle-forest-73428.herokuapp.com
