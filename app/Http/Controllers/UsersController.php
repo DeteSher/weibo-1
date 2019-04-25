@@ -79,4 +79,12 @@ class UsersController extends Controller
     	session()->flash('success', '欢迎, 您将在这里开启一段新的旅程');
     	return redirect()->route('users.show', [$user]);
     }
+
+    public function destroy(User $user)
+    {
+        $this->authorize('destroy', $user);
+        $user->delete();
+        session()->flash('success', '成功删除用户');
+        return back();
+    }
 }
