@@ -37,7 +37,8 @@ class User extends Authenticatable
         parent::boot();
 
         static::creating(function ($user) {
-            $user->activation_token = Str::random(10);
+            //激活码生成长度
+            $user->activation_token = Str::random(20);
         });
     }
 
