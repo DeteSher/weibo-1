@@ -10897,4 +10897,15 @@ section.user_info h1 {
   max-width: 100px;
 }
 
+/* Users edit */
+
+.gravatar_edit {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.gravatar_edit .gravatar {
+  float: none;
+  max-width: 100px;
+}
 
