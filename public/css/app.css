@@ -10924,7 +10924,7 @@ section.user_info h1 {
   color: #33383c;
 }
 
-.stats a:nth-child(2) {
+.stats a:first-child {
   padding-left: 0;
   border: 0;
 }
