@@ -23,9 +23,9 @@
 		</div>
 	@else
 	<div class="jumbotron">
-		<h1>Hello Laravel</h1>
+		<h1>Hello Weibo</h1>
 		<p class="lead">
-			你现在看到的是 <a href="https://learnku.com/courses/laravel-essential-training">Laravel 入门教程</a> 的示例项目主页。
+			你现在看到的是 <a href="https://learnku.com/courses/laravel-essential-training">微博部分功能仿写</a>
 		</p>
 		<p>
 			一切, 将从这里开始
